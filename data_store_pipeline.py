@@ -3,7 +3,7 @@ from openai import OpenAI
 from langchain_openai import ChatOpenAI
 
 # Set up your OpenAI API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 llm = ChatOpenAI(model='gpt-4o',temperature=0.1)
 client = OpenAI()
 
